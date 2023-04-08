@@ -57,6 +57,7 @@ body {
     justify-content: center;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;  
@@ -113,4 +114,34 @@ body {
     width: 150px;
     border: 5px solid #3882f6;
     border-radius: 20px;
+    
 }
+
+.quotation {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 40px;
+    
+}
+
+.quotation .containerquotation {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotation .containerquotation .quote {
+    font-style: italic;
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.quotation .containerquotation .quoteName {
+    font-weight: bold;
+    align-self: flex-end;
+    color: #1F2937;
+}
+   
+
