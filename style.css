@@ -144,4 +144,19 @@ body {
     color: #1F2937;
 }
    
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.signUp .containerSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.signUp .containerSignUp .signUp-left {
+    padding: 0;
+}
