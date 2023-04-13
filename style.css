@@ -57,6 +57,7 @@ body {
     justify-content: center;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;  
@@ -113,4 +114,86 @@ body {
     width: 150px;
     border: 5px solid #3882f6;
     border-radius: 20px;
+    
 }
+
+.quotation {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 40px;
+    
+}
+
+.quotation .containerquotation {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotation .containerquotation .quote {
+    font-style: italic;
+    font-size: 25px;
+    color: #1F2937;
+}
+
+.quotation .containerquotation .quoteName {
+    font-weight: bold;
+    align-self: flex-end;
+    color: #1F2937;
+}
+   
+.signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    color: white;
+    
+}
+
+.signUp .containerSignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882f6;
+    padding: 4% 12%;
+    border-radius:10px;
+}
+
+.signUp .containerSignUp .signUp-left h3{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.signUp .containerSignUp .signUp-left p{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+.signUp .containerSignUp .signUp-right button{
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: white;
+    background: none;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.signUp .containerSignUp .signUp-right button:hover{
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: #3882f6;
+    background: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
